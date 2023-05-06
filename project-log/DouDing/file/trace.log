@@ -1,0 +1,427 @@
+2023-05-03 10:33:25.425 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2023-05-03 10:33:25.440 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 10:33:26.924 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://domain-config:8888/
+2023-05-03 10:33:27.046 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-05-03 10:33:27.047 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-05-03 10:33:27.064 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-05-03 10:33:27.528 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 10:33:27.529 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 10:33:27.541 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-05-03 10:33:27.689 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=380c60a7-1499-3bde-81d0-a8c4254503d5
+2023-05-03 10:33:28.269 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-05-03 10:33:28.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-05-03 10:33:28.275 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-05-03 10:33:28.275 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-05-03 10:33:28.411 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-05-03 10:33:28.412 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 1331 ms
+2023-05-03 10:33:29.587 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-05-03 10:33:30.923 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-05-03 10:33:30.960 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-05-03 10:33:32.238 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-05-03 10:33:32.321 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-03 10:33:32.371 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-05-03 10:33:32.402 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-05-03 10:33:32.405 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 10:33:32.423 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-05-03 10:33:32.423 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-05-03 10:33:32.423 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-05-03 10:33:32.423 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-05-03 10:33:32.424 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-05-03 10:33:32.424 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-05-03 10:33:32.424 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-05-03 10:33:32.582 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-05-03 10:33:32.587 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-05-03 10:33:32.592 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-03 10:33:32.606 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1683081212605 with initial instances count: 3
+2023-05-03 10:33:32.611 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-05-03 10:33:32.611 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1683081212611, current=UP, previous=STARTING]
+2023-05-03 10:33:32.612 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-05-03 10:33:32.612 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-05-03 10:33:32.634 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-05-03 10:33:32.635 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-05-03 10:33:32.642 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-05-03 10:33:33.874 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-05-03 10:33:33.883 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 10.082 seconds (JVM running for 11.434)
+2023-05-03 10:33:33.885 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-05-03 10:33:33.885 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-05-03 10:38:32.428 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 10:43:13.177 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 10:43:13.177 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-05-03 10:43:13.178 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2023-05-03 10:43:13.209 INFO  com.douding.server.config.LogAspect               :76   [32m0kJkBFAK[0;39m ------------- 【文件上传】操作开始 -------------
+2023-05-03 10:43:13.209 INFO  com.douding.server.config.LogAspect               :77   [32m0kJkBFAK[0;39m 请求地址: http://localhost:9003/file/admin/file/check/3DgTQx60vey4SE4KuiuKM6 GET
+2023-05-03 10:43:13.209 INFO  com.douding.server.config.LogAspect               :78   [32m0kJkBFAK[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-05-03 10:43:13.209 INFO  com.douding.server.config.LogAspect               :79   [32m0kJkBFAK[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:43:13.237 INFO  com.douding.server.config.LogAspect               :97   [32m0kJkBFAK[0;39m 请求参数: ["3DgTQx60vey4SE4KuiuKM6"]
+2023-05-03 10:43:13.240 INFO  com.douding.file.controller.admin.UploadController:174  [32m0kJkBFAK[0;39m 检查上传分片开始：3DgTQx60vey4SE4KuiuKM6
+2023-05-03 10:43:13.274 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m0kJkBFAK[0;39m HikariPool-1 - Starting...
+2023-05-03 10:43:13.360 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m0kJkBFAK[0;39m HikariPool-1 - Start completed.
+2023-05-03 10:43:13.365 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32m0kJkBFAK[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-05-03 10:43:13.381 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32m0kJkBFAK[0;39m ==> Parameters: 3DgTQx60vey4SE4KuiuKM6(String)
+2023-05-03 10:43:13.402 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32m0kJkBFAK[0;39m <==      Total: 0
+2023-05-03 10:43:13.430 INFO  com.douding.server.config.LogAspect               :109  [32m0kJkBFAK[0;39m 返回结果: {"success":true}
+2023-05-03 10:43:13.430 INFO  com.douding.server.config.LogAspect               :110  [32m0kJkBFAK[0;39m ------------- 结束 耗时：223 ms -------------
+2023-05-03 10:43:13.580 INFO  com.douding.server.config.LogAspect               :76   [32mU6hWbIDg[0;39m ------------- 【文件上传】操作开始 -------------
+2023-05-03 10:43:13.580 INFO  com.douding.server.config.LogAspect               :77   [32mU6hWbIDg[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-05-03 10:43:13.580 INFO  com.douding.server.config.LogAspect               :78   [32mU6hWbIDg[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-05-03 10:43:13.580 INFO  com.douding.server.config.LogAspect               :79   [32mU6hWbIDg[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:43:13.584 INFO  com.douding.server.config.LogAspect               :97   [32mU6hWbIDg[0;39m 请求参数: [{"key":"3DgTQx60vey4SE4KuiuKM6","name":"3BCkuqCVig0WscMuswwEKI.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":18085,"suffix":"jpg","use":"T"}]
+2023-05-03 10:43:13.924 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mU6hWbIDg[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-05-03 10:43:13.925 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mU6hWbIDg[0;39m ==> Parameters: 3DgTQx60vey4SE4KuiuKM6(String)
+2023-05-03 10:43:13.925 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mU6hWbIDg[0;39m <==      Total: 0
+2023-05-03 10:43:13.926 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mU6hWbIDg[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2023-05-03 10:43:13.928 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mU6hWbIDg[0;39m ==> Parameters: TEp5rBWw(String), teacher\3DgTQx60vey4SE4KuiuKM6.jpg(String), 3BCkuqCVig0WscMuswwEKI.jpg(String), jpg(String), 18085(Integer), T(String), 2023-05-03 10:43:13.926(Timestamp), 2023-05-03 10:43:13.926(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), 3DgTQx60vey4SE4KuiuKM6(String)
+2023-05-03 10:43:13.931 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mU6hWbIDg[0;39m <==    Updates: 1
+2023-05-03 10:43:13.932 INFO  com.douding.file.controller.admin.UploadController:119  [32mU6hWbIDg[0;39m 合并分片开始
+2023-05-03 10:43:13.940 INFO  com.douding.file.controller.admin.UploadController:152  [32mU6hWbIDg[0;39m IO流关闭
+2023-05-03 10:43:13.940 INFO  com.douding.file.controller.admin.UploadController:157  [32mU6hWbIDg[0;39m 合并分片结束
+2023-05-03 10:43:14.082 INFO  com.douding.file.controller.admin.UploadController:162  [32mU6hWbIDg[0;39m 删除分片开始
+2023-05-03 10:43:14.083 INFO  com.douding.file.controller.admin.UploadController:167  [32mU6hWbIDg[0;39m 删除/Users/xiaozhe/Downloads/td/teacher\3DgTQx60vey4SE4KuiuKM6.jpg.1,成功
+2023-05-03 10:43:14.083 INFO  com.douding.file.controller.admin.UploadController:169  [32mU6hWbIDg[0;39m 删除分片结束
+2023-05-03 10:43:14.083 INFO  com.douding.server.config.LogAspect               :109  [32mU6hWbIDg[0;39m 返回结果: {"content":{"key":"3DgTQx60vey4SE4KuiuKM6","name":"3BCkuqCVig0WscMuswwEKI.jpg","path":"teacher\\3DgTQx60vey4SE4KuiuKM6.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":18085,"suffix":"jpg","use":"T"},"success":true}
+2023-05-03 10:43:14.083 INFO  com.douding.server.config.LogAspect               :110  [32mU6hWbIDg[0;39m ------------- 结束 耗时：504 ms -------------
+2023-05-03 10:43:16.506 INFO  com.douding.server.config.LogAspect               :76   [32mDtQsBCmT[0;39m ------------- 【文件上传】保存开始 -------------
+2023-05-03 10:43:16.506 INFO  com.douding.server.config.LogAspect               :77   [32mDtQsBCmT[0;39m 请求地址: http://localhost:9003/file/admin/file/save POST
+2023-05-03 10:43:16.506 INFO  com.douding.server.config.LogAspect               :78   [32mDtQsBCmT[0;39m 类名方法: com.douding.file.controller.admin.UploadController.save
+2023-05-03 10:43:16.506 INFO  com.douding.server.config.LogAspect               :79   [32mDtQsBCmT[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:43:16.507 INFO  com.douding.server.config.LogAspect               :97   [32mDtQsBCmT[0;39m 请求参数: [{"id":"5vkSWyOp","image":"teacher\\3DgTQx60vey4SE4KuiuKM6.jpg","intro":"吉林大学","motto":"王晨浩","name":"王晨浩","nickname":"王晨浩","position":"王晨浩"}]
+2023-05-03 10:43:16.514 DEBUG c.d.server.mapper.TeacherMapper.updateByPrimaryKey:159  [32mDtQsBCmT[0;39m ==>  Preparing: update teacher set `name` = ?, nickname = ?, image = ?, `position` = ?, motto = ?, intro = ? where id = ? 
+2023-05-03 10:43:16.514 DEBUG c.d.server.mapper.TeacherMapper.updateByPrimaryKey:159  [32mDtQsBCmT[0;39m ==> Parameters: 王晨浩(String), 王晨浩(String), http://rttqncrzl.hd-bkt.clouddn.com/3DgTQx60vey4SE4KuiuKM6(String), 王晨浩(String), 王晨浩(String), 吉林大学(String), 5vkSWyOp(String)
+2023-05-03 10:43:16.517 DEBUG c.d.server.mapper.TeacherMapper.updateByPrimaryKey:159  [32mDtQsBCmT[0;39m <==    Updates: 1
+2023-05-03 10:43:16.517 INFO  com.douding.server.config.LogAspect               :109  [32mDtQsBCmT[0;39m 返回结果: {"content":{"id":"5vkSWyOp","image":"http://rttqncrzl.hd-bkt.clouddn.com/3DgTQx60vey4SE4KuiuKM6","intro":"吉林大学","motto":"王晨浩","name":"王晨浩","nickname":"王晨浩","position":"王晨浩"},"success":true}
+2023-05-03 10:43:16.518 INFO  com.douding.server.config.LogAspect               :110  [32mDtQsBCmT[0;39m ------------- 结束 耗时：12 ms -------------
+2023-05-03 10:43:32.430 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 10:44:20.477 INFO  com.douding.server.config.LogAspect               :76   [32mYW4QSWij[0;39m ------------- 【文件上传】操作开始 -------------
+2023-05-03 10:44:20.478 INFO  com.douding.server.config.LogAspect               :77   [32mYW4QSWij[0;39m 请求地址: http://localhost:9003/file/admin/file/check/7BQblMSWWcm4GqwIq08gOY GET
+2023-05-03 10:44:20.478 INFO  com.douding.server.config.LogAspect               :78   [32mYW4QSWij[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-05-03 10:44:20.479 INFO  com.douding.server.config.LogAspect               :79   [32mYW4QSWij[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:44:20.479 INFO  com.douding.server.config.LogAspect               :97   [32mYW4QSWij[0;39m 请求参数: ["7BQblMSWWcm4GqwIq08gOY"]
+2023-05-03 10:44:20.479 INFO  com.douding.file.controller.admin.UploadController:174  [32mYW4QSWij[0;39m 检查上传分片开始：7BQblMSWWcm4GqwIq08gOY
+2023-05-03 10:44:20.481 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mYW4QSWij[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-05-03 10:44:20.483 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mYW4QSWij[0;39m ==> Parameters: 7BQblMSWWcm4GqwIq08gOY(String)
+2023-05-03 10:44:20.485 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mYW4QSWij[0;39m <==      Total: 0
+2023-05-03 10:44:20.485 INFO  com.douding.server.config.LogAspect               :109  [32mYW4QSWij[0;39m 返回结果: {"success":true}
+2023-05-03 10:44:20.486 INFO  com.douding.server.config.LogAspect               :110  [32mYW4QSWij[0;39m ------------- 结束 耗时：9 ms -------------
+2023-05-03 10:44:20.630 INFO  com.douding.server.config.LogAspect               :76   [32mhg8Rsb2E[0;39m ------------- 【文件上传】操作开始 -------------
+2023-05-03 10:44:20.630 INFO  com.douding.server.config.LogAspect               :77   [32mhg8Rsb2E[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-05-03 10:44:20.630 INFO  com.douding.server.config.LogAspect               :78   [32mhg8Rsb2E[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-05-03 10:44:20.631 INFO  com.douding.server.config.LogAspect               :79   [32mhg8Rsb2E[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:44:20.631 INFO  com.douding.server.config.LogAspect               :97   [32mhg8Rsb2E[0;39m 请求参数: [{"key":"7BQblMSWWcm4GqwIq08gOY","name":"7rAD1LohnaqmmIeEuOYAee.jpeg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":155068,"suffix":"jpeg","use":"T"}]
+2023-05-03 10:44:21.085 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mhg8Rsb2E[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-05-03 10:44:21.085 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mhg8Rsb2E[0;39m ==> Parameters: 7BQblMSWWcm4GqwIq08gOY(String)
+2023-05-03 10:44:21.086 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mhg8Rsb2E[0;39m <==      Total: 0
+2023-05-03 10:44:21.087 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mhg8Rsb2E[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2023-05-03 10:44:21.087 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mhg8Rsb2E[0;39m ==> Parameters: OgRqFRuq(String), teacher\7BQblMSWWcm4GqwIq08gOY.jpeg(String), 7rAD1LohnaqmmIeEuOYAee.jpeg(String), jpeg(String), 155068(Integer), T(String), 2023-05-03 10:44:21.087(Timestamp), 2023-05-03 10:44:21.087(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), 7BQblMSWWcm4GqwIq08gOY(String)
+2023-05-03 10:44:21.091 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mhg8Rsb2E[0;39m <==    Updates: 1
+2023-05-03 10:44:21.092 INFO  com.douding.file.controller.admin.UploadController:119  [32mhg8Rsb2E[0;39m 合并分片开始
+2023-05-03 10:44:21.101 INFO  com.douding.file.controller.admin.UploadController:152  [32mhg8Rsb2E[0;39m IO流关闭
+2023-05-03 10:44:21.101 INFO  com.douding.file.controller.admin.UploadController:157  [32mhg8Rsb2E[0;39m 合并分片结束
+2023-05-03 10:44:21.246 INFO  com.douding.file.controller.admin.UploadController:162  [32mhg8Rsb2E[0;39m 删除分片开始
+2023-05-03 10:44:21.246 INFO  com.douding.file.controller.admin.UploadController:167  [32mhg8Rsb2E[0;39m 删除/Users/xiaozhe/Downloads/td/teacher\7BQblMSWWcm4GqwIq08gOY.jpeg.1,成功
+2023-05-03 10:44:21.247 INFO  com.douding.file.controller.admin.UploadController:169  [32mhg8Rsb2E[0;39m 删除分片结束
+2023-05-03 10:44:21.247 INFO  com.douding.server.config.LogAspect               :109  [32mhg8Rsb2E[0;39m 返回结果: {"content":{"key":"7BQblMSWWcm4GqwIq08gOY","name":"7rAD1LohnaqmmIeEuOYAee.jpeg","path":"teacher\\7BQblMSWWcm4GqwIq08gOY.jpeg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":155068,"suffix":"jpeg","use":"T"},"success":true}
+2023-05-03 10:44:21.247 INFO  com.douding.server.config.LogAspect               :110  [32mhg8Rsb2E[0;39m ------------- 结束 耗时：617 ms -------------
+2023-05-03 10:44:23.468 INFO  com.douding.server.config.LogAspect               :76   [32mZIny6dV0[0;39m ------------- 【文件上传】保存开始 -------------
+2023-05-03 10:44:23.469 INFO  com.douding.server.config.LogAspect               :77   [32mZIny6dV0[0;39m 请求地址: http://localhost:9003/file/admin/file/save POST
+2023-05-03 10:44:23.469 INFO  com.douding.server.config.LogAspect               :78   [32mZIny6dV0[0;39m 类名方法: com.douding.file.controller.admin.UploadController.save
+2023-05-03 10:44:23.469 INFO  com.douding.server.config.LogAspect               :79   [32mZIny6dV0[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:44:23.469 INFO  com.douding.server.config.LogAspect               :97   [32mZIny6dV0[0;39m 请求参数: [{"image":"teacher\\7BQblMSWWcm4GqwIq08gOY.jpeg","intro":"优质偶像","motto":"不老男神","name":"谢霆锋","nickname":"花无缺","position":"香港讲师"}]
+2023-05-03 10:44:23.470 DEBUG com.douding.server.mapper.TeacherMapper.insert    :159  [32mZIny6dV0[0;39m ==>  Preparing: insert into teacher (id, `name`, nickname, image, `position`, motto, intro) values (?, ?, ?, ?, ?, ?, ? ) 
+2023-05-03 10:44:23.470 DEBUG com.douding.server.mapper.TeacherMapper.insert    :159  [32mZIny6dV0[0;39m ==> Parameters: Nzfa5I7z(String), 谢霆锋(String), 花无缺(String), http://rttqncrzl.hd-bkt.clouddn.com/7BQblMSWWcm4GqwIq08gOY(String), 香港讲师(String), 不老男神(String), 优质偶像(String)
+2023-05-03 10:44:23.473 DEBUG com.douding.server.mapper.TeacherMapper.insert    :159  [32mZIny6dV0[0;39m <==    Updates: 1
+2023-05-03 10:44:23.473 INFO  com.douding.server.config.LogAspect               :109  [32mZIny6dV0[0;39m 返回结果: {"content":{"image":"http://rttqncrzl.hd-bkt.clouddn.com/7BQblMSWWcm4GqwIq08gOY","intro":"优质偶像","motto":"不老男神","name":"谢霆锋","nickname":"花无缺","position":"香港讲师"},"success":true}
+2023-05-03 10:44:23.473 INFO  com.douding.server.config.LogAspect               :110  [32mZIny6dV0[0;39m ------------- 结束 耗时：5 ms -------------
+2023-05-03 10:44:45.349 INFO  com.douding.server.config.LogAspect               :76   [32mFrIrrwX4[0;39m ------------- 【文件上传】操作开始 -------------
+2023-05-03 10:44:45.349 INFO  com.douding.server.config.LogAspect               :77   [32mFrIrrwX4[0;39m 请求地址: http://localhost:9003/file/admin/file/check/OdmMI6sDAIAouEQsO6a0O GET
+2023-05-03 10:44:45.350 INFO  com.douding.server.config.LogAspect               :78   [32mFrIrrwX4[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-05-03 10:44:45.350 INFO  com.douding.server.config.LogAspect               :79   [32mFrIrrwX4[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:44:45.350 INFO  com.douding.server.config.LogAspect               :97   [32mFrIrrwX4[0;39m 请求参数: ["OdmMI6sDAIAouEQsO6a0O"]
+2023-05-03 10:44:45.350 INFO  com.douding.file.controller.admin.UploadController:174  [32mFrIrrwX4[0;39m 检查上传分片开始：OdmMI6sDAIAouEQsO6a0O
+2023-05-03 10:44:45.352 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mFrIrrwX4[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-05-03 10:44:45.352 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mFrIrrwX4[0;39m ==> Parameters: OdmMI6sDAIAouEQsO6a0O(String)
+2023-05-03 10:44:45.353 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mFrIrrwX4[0;39m <==      Total: 0
+2023-05-03 10:44:45.353 INFO  com.douding.server.config.LogAspect               :109  [32mFrIrrwX4[0;39m 返回结果: {"success":true}
+2023-05-03 10:44:45.354 INFO  com.douding.server.config.LogAspect               :110  [32mFrIrrwX4[0;39m ------------- 结束 耗时：5 ms -------------
+2023-05-03 10:44:45.372 INFO  com.douding.server.config.LogAspect               :76   [32mLpg75rAg[0;39m ------------- 【文件上传】操作开始 -------------
+2023-05-03 10:44:45.372 INFO  com.douding.server.config.LogAspect               :77   [32mLpg75rAg[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-05-03 10:44:45.372 INFO  com.douding.server.config.LogAspect               :78   [32mLpg75rAg[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-05-03 10:44:45.373 INFO  com.douding.server.config.LogAspect               :79   [32mLpg75rAg[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:44:45.373 INFO  com.douding.server.config.LogAspect               :97   [32mLpg75rAg[0;39m 请求参数: [{"key":"OdmMI6sDAIAouEQsO6a0O","name":"78DebrZnxKKaouqeIOEcG6.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":39186,"suffix":"jpg","use":"T"}]
+2023-05-03 10:44:45.721 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mLpg75rAg[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-05-03 10:44:45.722 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mLpg75rAg[0;39m ==> Parameters: OdmMI6sDAIAouEQsO6a0O(String)
+2023-05-03 10:44:45.722 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mLpg75rAg[0;39m <==      Total: 0
+2023-05-03 10:44:45.723 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mLpg75rAg[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2023-05-03 10:44:45.723 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mLpg75rAg[0;39m ==> Parameters: y3KFp2Nn(String), teacher\OdmMI6sDAIAouEQsO6a0O.jpg(String), 78DebrZnxKKaouqeIOEcG6.jpg(String), jpg(String), 39186(Integer), T(String), 2023-05-03 10:44:45.723(Timestamp), 2023-05-03 10:44:45.723(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), OdmMI6sDAIAouEQsO6a0O(String)
+2023-05-03 10:44:45.727 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mLpg75rAg[0;39m <==    Updates: 1
+2023-05-03 10:44:45.728 INFO  com.douding.file.controller.admin.UploadController:119  [32mLpg75rAg[0;39m 合并分片开始
+2023-05-03 10:44:45.738 INFO  com.douding.file.controller.admin.UploadController:152  [32mLpg75rAg[0;39m IO流关闭
+2023-05-03 10:44:45.738 INFO  com.douding.file.controller.admin.UploadController:157  [32mLpg75rAg[0;39m 合并分片结束
+2023-05-03 10:44:45.875 INFO  com.douding.file.controller.admin.UploadController:162  [32mLpg75rAg[0;39m 删除分片开始
+2023-05-03 10:44:45.876 INFO  com.douding.file.controller.admin.UploadController:167  [32mLpg75rAg[0;39m 删除/Users/xiaozhe/Downloads/td/teacher\OdmMI6sDAIAouEQsO6a0O.jpg.1,成功
+2023-05-03 10:44:45.876 INFO  com.douding.file.controller.admin.UploadController:169  [32mLpg75rAg[0;39m 删除分片结束
+2023-05-03 10:44:45.876 INFO  com.douding.server.config.LogAspect               :109  [32mLpg75rAg[0;39m 返回结果: {"content":{"key":"OdmMI6sDAIAouEQsO6a0O","name":"78DebrZnxKKaouqeIOEcG6.jpg","path":"teacher\\OdmMI6sDAIAouEQsO6a0O.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":39186,"suffix":"jpg","use":"T"},"success":true}
+2023-05-03 10:44:45.876 INFO  com.douding.server.config.LogAspect               :110  [32mLpg75rAg[0;39m ------------- 结束 耗时：504 ms -------------
+2023-05-03 10:44:47.989 INFO  com.douding.server.config.LogAspect               :76   [32mINuufeP1[0;39m ------------- 【文件上传】保存开始 -------------
+2023-05-03 10:44:47.989 INFO  com.douding.server.config.LogAspect               :77   [32mINuufeP1[0;39m 请求地址: http://localhost:9003/file/admin/file/save POST
+2023-05-03 10:44:47.990 INFO  com.douding.server.config.LogAspect               :78   [32mINuufeP1[0;39m 类名方法: com.douding.file.controller.admin.UploadController.save
+2023-05-03 10:44:47.990 INFO  com.douding.server.config.LogAspect               :79   [32mINuufeP1[0;39m 远程地址: 127.0.0.1
+2023-05-03 10:44:47.990 INFO  com.douding.server.config.LogAspect               :97   [32mINuufeP1[0;39m 请求参数: [{"id":"Nzfa5I7z","image":"teacher\\OdmMI6sDAIAouEQsO6a0O.jpg","intro":"优质偶像","motto":"不老男神","name":"谢霆锋","nickname":"花无缺","position":"香港讲师"}]
+2023-05-03 10:44:47.991 DEBUG c.d.server.mapper.TeacherMapper.updateByPrimaryKey:159  [32mINuufeP1[0;39m ==>  Preparing: update teacher set `name` = ?, nickname = ?, image = ?, `position` = ?, motto = ?, intro = ? where id = ? 
+2023-05-03 10:44:47.991 DEBUG c.d.server.mapper.TeacherMapper.updateByPrimaryKey:159  [32mINuufeP1[0;39m ==> Parameters: 谢霆锋(String), 花无缺(String), http://rttqncrzl.hd-bkt.clouddn.com/OdmMI6sDAIAouEQsO6a0O(String), 香港讲师(String), 不老男神(String), 优质偶像(String), Nzfa5I7z(String)
+2023-05-03 10:44:47.994 DEBUG c.d.server.mapper.TeacherMapper.updateByPrimaryKey:159  [32mINuufeP1[0;39m <==    Updates: 1
+2023-05-03 10:44:47.994 INFO  com.douding.server.config.LogAspect               :109  [32mINuufeP1[0;39m 返回结果: {"content":{"id":"Nzfa5I7z","image":"http://rttqncrzl.hd-bkt.clouddn.com/OdmMI6sDAIAouEQsO6a0O","intro":"优质偶像","motto":"不老男神","name":"谢霆锋","nickname":"花无缺","position":"香港讲师"},"success":true}
+2023-05-03 10:44:47.994 INFO  com.douding.server.config.LogAspect               :110  [32mINuufeP1[0;39m ------------- 结束 耗时：5 ms -------------
+2023-05-03 10:48:13.714 WARN  okhttp3.OkHttpClient                              :135  [32m        [0;39m A connection to http://upload.qiniu.com/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2023-05-03 10:48:32.431 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 10:49:20.709 WARN  okhttp3.OkHttpClient                              :135  [32m        [0;39m A connection to http://upload.qiniu.com/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2023-05-03 10:49:45.430 WARN  okhttp3.OkHttpClient                              :135  [32m        [0;39m A connection to http://upload.qiniu.com/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2023-05-03 10:53:32.432 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 10:58:32.433 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 11:03:32.434 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-05-03 11:07:39.458 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-05-03 11:07:39.459 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1683083259459, current=DOWN, previous=UP]
+2023-05-03 11:07:39.459 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-05-03 11:07:39.518 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2023-05-03 11:07:39.523 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2023-05-03 11:07:39.524 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-05-03 11:07:41.495 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://domain-eureka:8761/eureka/} exception=I/O error on POST request for "http://domain-eureka:8761/eureka/apps/API-FILE": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://domain-eureka:8761/eureka/apps/API-FILE": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 34 more
+
+2023-05-03 11:07:41.495 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on POST request for "http://domain-eureka:8761/eureka/apps/API-FILE": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+2023-05-03 11:07:42.532 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-05-03 11:07:43.532 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://domain-eureka:8761/eureka/}, exception=I/O error on POST request for "http://domain-eureka:8761/eureka/apps/API-FILE": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://domain-eureka:8761/eureka/apps/API-FILE": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2023-05-03 11:07:43.532 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on POST request for "http://domain-eureka:8761/eureka/apps/API-FILE": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+2023-05-03 11:07:43.533 WARN  com.netflix.discovery.DiscoveryClient             :878  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-05-03 11:07:43.534 WARN  com.netflix.discovery.InstanceInfoReplicator      :125  [32m        [0;39m There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-05-03 11:07:44.537 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://domain-eureka:8761/eureka/}, exception=I/O error on DELETE request for "http://domain-eureka:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://domain-eureka:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+2023-05-03 11:07:44.537 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://domain-eureka:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to domain-eureka:8761 [domain-eureka/127.0.0.1] failed: Connection refused: connect
+2023-05-03 11:07:44.537 ERROR com.netflix.discovery.DiscoveryClient             :975  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-05-03 11:07:44.623 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient

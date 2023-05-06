@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DouDing/DouDing.iml" filepath="$PROJECT_DIR$/DouDing/DouDing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/api-business/api-business.iml" filepath="$PROJECT_DIR$/DouDing/api-business/api-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/api-file/api-file.iml" filepath="$PROJECT_DIR$/DouDing/api-file/api-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/api-system/api-system.iml" filepath="$PROJECT_DIR$/DouDing/api-system/api-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/douding-common/douding-common.iml" filepath="$PROJECT_DIR$/DouDing/douding-common/douding-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/douding-config/douding-config.iml" filepath="$PROJECT_DIR$/DouDing/douding-config/douding-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/douding-dependencies/douding-dependencies.iml" filepath="$PROJECT_DIR$/DouDing/douding-dependencies/douding-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/douding-eureka/douding-eureka.iml" filepath="$PROJECT_DIR$/DouDing/douding-eureka/douding-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouDing/douding-gateway/douding-gateway.iml" filepath="$PROJECT_DIR$/DouDing/douding-gateway/douding-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/join-test-two-master.iml" filepath="$PROJECT_DIR$/.idea/join-test-two-master.iml" />
+    </modules>
+  </component>
+</project>

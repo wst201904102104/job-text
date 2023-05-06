@@ -1,0 +1,214 @@
+2023-04-28 09:00:52.257 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2023-04-28 09:00:53.803 INFO  com.douding.config.ConfigApplication              :663  [32m        [0;39m The following profiles are active: native
+2023-04-28 09:00:54.224 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=f93886f2-c42f-335e-adbc-0a6c60c18f6c
+2023-04-28 09:00:54.393 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8888 (http)
+2023-04-28 09:00:54.398 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2023-04-28 09:00:54.399 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-28 09:00:54.399 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-28 09:00:54.527 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-28 09:00:54.528 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 714 ms
+2023-04-28 09:00:56.178 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-28 09:00:56.207 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-28 09:00:57.638 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-28 09:00:57.928 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-28 09:00:57.997 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-28 09:00:58.052 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-28 09:00:58.059 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:00:58.087 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-28 09:00:58.088 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-28 09:00:58.088 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-28 09:00:58.089 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-28 09:00:58.089 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-28 09:00:58.089 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-28 09:00:58.089 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-28 09:00:58.511 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-28 09:00:58.517 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-28 09:00:58.522 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-28 09:00:58.536 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682643658534 with initial instances count: 0
+2023-04-28 09:00:58.536 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application DOUDING-CONFIG with eureka with status UP
+2023-04-28 09:00:58.537 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682643658537, current=UP, previous=STARTING]
+2023-04-28 09:00:58.538 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_DOUDING-CONFIG/localhost:douding-config:8888: registering service...
+2023-04-28 09:00:58.539 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2023-04-28 09:00:58.569 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2023-04-28 09:00:58.570 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8888
+2023-04-28 09:00:58.637 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_DOUDING-CONFIG/localhost:douding-config:8888 - registration status: 204
+2023-04-28 09:01:00.015 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-28 09:01:00.022 INFO  com.douding.config.ConfigApplication              :61   [32m        [0;39m Started ConfigApplication in 9.374 seconds (JVM running for 10.283)
+2023-04-28 09:01:00.024 INFO  com.douding.config.ConfigApplication              :22   [32m        [0;39m 启动成功！！
+2023-04-28 09:01:00.024 INFO  com.douding.config.ConfigApplication              :23   [32m        [0;39m Config: 	http://127.0.0.1:8888
+2023-04-28 09:01:02.567 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 09:01:02.569 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-04-28 09:01:02.572 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 3 ms
+2023-04-28 09:01:02.678 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-system-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 09:01:18.670 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-business-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 09:01:25.411 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 09:01:28.518 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-28 09:01:28.518 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-28 09:01:28.519 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-28 09:01:28.519 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-28 09:01:28.519 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-28 09:01:28.519 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2023-04-28 09:01:28.519 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-28 09:01:28.530 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-28 09:01:32.020 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/douding-gateway-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 09:05:58.097 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:10:58.099 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:15:58.101 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:20:58.102 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:25:58.103 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:30:58.104 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:35:58.106 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:40:58.109 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:45:58.111 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:50:58.113 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 09:55:58.114 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:00:58.116 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:05:58.118 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:10:58.120 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:15:58.120 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:20:58.122 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:25:58.123 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:30:58.123 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:35:58.125 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:40:58.127 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:45:58.128 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:50:58.129 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 10:55:58.129 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:00:58.130 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:05:58.130 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:10:58.132 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:15:58.133 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:20:58.135 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:25:58.136 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:30:58.138 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:35:58.140 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:40:59.746 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:45:59.747 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:50:59.750 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 11:55:59.752 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:00:59.754 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:05:59.756 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:10:59.758 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:15:59.760 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:20:59.762 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:25:59.764 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:30:59.765 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 12:35:59.768 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 15:57:13.088 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:02:13.090 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:07:13.091 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:12:13.092 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:17:13.093 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:22:13.096 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:27:13.096 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:32:13.097 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:37:13.099 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:42:13.100 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:47:13.101 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:52:13.102 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 16:57:13.102 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:01:11.433 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 17:02:13.103 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:07:13.105 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:12:13.107 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:12:50.508 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 17:17:13.108 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:19:51.141 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 17:22:13.110 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:27:13.112 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:32:13.114 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:34:03.312 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 17:37:13.115 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:42:13.116 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:47:13.118 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:52:13.119 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 17:53:19.646 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 17:55:37.060 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 17:57:13.121 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:00:40.208 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:02:13.122 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:05:56.967 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:07:13.124 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:10:06.758 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:12:13.124 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:15:22.978 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:17:13.126 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:22:13.127 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:23:15.508 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:25:33.334 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:27:13.128 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:28:29.434 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:32:13.129 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:34:31.731 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:37:13.130 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:38:01.563 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:40:54.924 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:42:13.132 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:47:13.133 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:48:42.474 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 18:52:13.135 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:57:13.137 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 18:57:58.957 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 19:02:13.138 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:07:13.140 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:12:13.142 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:17:13.144 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:22:13.146 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:27:13.149 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:32:13.150 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:35:35.703 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 19:37:13.151 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:42:13.152 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:47:13.155 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:52:13.158 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 19:57:13.161 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:02:13.162 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:06:34.986 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 20:07:13.164 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:12:13.167 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:17:13.168 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:22:13.170 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:27:13.172 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:46:18.192 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:51:13.011 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 20:51:18.194 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 20:56:18.196 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:01:18.197 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:06:18.198 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:11:18.200 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:16:18.201 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:21:18.203 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:26:18.204 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:31:18.205 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:36:18.206 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:41:18.207 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:46:18.208 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:51:18.211 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:56:18.212 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 21:58:34.534 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 22:01:18.214 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:06:18.216 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:11:18.217 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:16:18.219 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:21:18.220 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:26:18.222 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:31:18.224 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:36:18.226 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:41:18.227 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:46:18.228 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:51:18.230 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 22:56:18.231 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:01:18.233 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:06:18.233 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:11:18.234 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:16:18.236 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:20:14.151 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'
+2023-04-28 23:21:18.238 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:26:18.238 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:31:18.240 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:36:18.241 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:41:18.242 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:46:18.244 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:51:18.245 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:56:18.248 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-28 23:57:20.012 INFO  o.s.c.c.s.environment.NativeEnvironmentRepository :314  [32m        [0;39m Adding property source: Config resource 'class path resource [config/dev/api-file-dev.yml]' via location 'classpath:/config/dev/'

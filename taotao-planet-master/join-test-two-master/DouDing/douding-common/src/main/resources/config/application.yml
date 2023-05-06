@@ -1,0 +1,47 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/work?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: toor
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  profiles:
+    active: dev
+    cloud:
+      config:
+        fail-fast: true
+        name: ${spring.application.name}
+        profile: ${spring.profiles.active}
+        label: ${spring.profiles.active}
+        uri: http://localhost:9527/
+        discovery:
+          enabled: false
+          service-id: douding-config
+
+mybatis:
+  mapper-locations: classpath:/mapper/**/*.xml
+
+logging:
+  level:
+    com:
+      douding:
+        server:
+          mapper: trace
+
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+##spring.datasource.url=jdbc:mysql://192.168.38.130:3306/doudingimooc?characterEncoding=UTF8&autoReconnect=true
+#spring.datasource.url=jdbc:mysql://192.168.38.130:3306/doudingimooc?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#spring.datasource.username=root
+#spring.datasource.password=root
+#
+#
+#mybatis.mapper-locations=classpath:/mapper/**/*.xml
+#
+#logging.level.com.douding.server.mapper=trace
+#
+#spring.redis.host=192.168.38.130
+#spring.redis.port=6379
+
+#spring.redis.password=html

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="douding-common" />
+        <module name="douding-gateway" />
+        <module name="douding-config" />
+        <module name="api-system" />
+        <module name="api-business" />
+        <module name="api-file" />
+        <module name="douding-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-business" target="11" />
+      <module name="api-file" target="11" />
+      <module name="api-system" target="11" />
+      <module name="DouDing" target="1.5" />
+      <module name="douding-common" target="11" />
+      <module name="douding-config" target="11" />
+      <module name="douding-dependencies" target="11" />
+      <module name="douding-eureka" target="11" />
+      <module name="douding-gateway" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
