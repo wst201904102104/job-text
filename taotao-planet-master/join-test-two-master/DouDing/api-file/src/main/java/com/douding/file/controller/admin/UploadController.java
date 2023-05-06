@@ -87,8 +87,6 @@ public class UploadController {
             byte[] bytes = shard.getBytes();
             //使用base64方式上传到七牛云
             fileUrl = qiniuUtil.put64image(bytes, key);
-//            teacherDto.setImage(fileUrl);
-//            teacherService.save(teacherDto);
             fileDto.setPath(path);
             fileService.save(fileDto);
             // 保存文件
